@@ -5,7 +5,7 @@
 %Input: Pattern array: pattern; mcare: search as far as m neighbors that you care about
 %Output: the location [i, j] of the tightest point
 % ===================================================
-function [i,j] = findTightest(pattern,mcare,f,ph,pw)
+function [i,j] = findTightest(pattern,mcare)
 [ph, pw] = size(pattern);
 sigma = 1.5;
 pattern = wrapAround(pattern, mcare);
