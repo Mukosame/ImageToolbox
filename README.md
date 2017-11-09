@@ -31,8 +31,26 @@ This toolbox includes following functions:
 - screenMono(mask, image): Halftone image using threshold matrix
 ### Void and Cluster
 - voidAndCluster(size): Generate a threshold array based on Ulichney void-and-cluster model
+
+Original Image: 
+![test_image](https://github.com/Mukosame/ImageToolbox/blob/master/src/test.png "Original image")
+
+Void and Cluster halftoned Image: 
+![vac_image](https://github.com/Mukosame/ImageToolbox/blob/master/src/vac_img.png "void-and-cluster image")
+
 ### Error diffusion
 - sED(input): Get standard error diffusion halftone image, based on Floyd-Steinberg error diffusion model
+
+Error Diffusion halftoned Image: 
+![ed_image](https://github.com/Mukosame/ImageToolbox/blob/master/src/sed_img.png "error diffusion image")
+
 ### Fat-Dot Printer Model
 - fatDot(image): A digital simulation of fat dot printer
+
+Image displayed in Fat-Dot simulator: 
+![fat_dot_image](https://github.com/Mukosame/ImageToolbox/blob/master/src/fatdot_img.png "fat-dot image")
+
 - mED(image): Give modified error diffusion result considering Fat-Dot model
+
+Modified Error Diffusion halftoned Image: 
+![med_image](https://github.com/Mukosame/ImageToolbox/blob/master/src/med_img.png "modified error diffusion image")
